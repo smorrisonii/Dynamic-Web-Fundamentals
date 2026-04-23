@@ -1,0 +1,48 @@
+/*css selector review*/
+body {
+    background-color: #ddd; /*changes the background color*/
+    font-size: 20px; /*changes font size*/
+}
+
+/*for an id in a div, start with a #*/
+#content {
+    max-width: 60%; /*creates a max width for the content div*/
+    border: 1px solid darkgray; /*adds a 1 pixel border*/
+    margin: 40px auto; /*centers the content div. 0 is top and bottom, but auto means left and right will have equal space for both*/
+    padding: 50px;
+}
+
+p {
+    color: #035f9c;
+    font-size: 1.3em;
+}
+
+hr {
+    height: 3px;
+    background-color: #035f9c;
+    width: 80%;
+    margin-top: 50px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+#logos {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    margin: 50px auto;
+}
+
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.list {
+    list-style-type: none;
+} /*A "." targets a class*/
