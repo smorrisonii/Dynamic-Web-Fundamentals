@@ -12,6 +12,7 @@ body {
 h1 {
     font-size: 50px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 #subtitle {
@@ -23,7 +24,7 @@ h1 {
 
 hr {
     background-color:rgb(191, 191, 191);
-    width: 70%;
+    width: 80%;
     margin-bottom: 50px;
 }
 
