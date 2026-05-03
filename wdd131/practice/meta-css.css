@@ -46,3 +46,8 @@ img {
 .list {
     list-style-type: none;
 } /*A "." targets a class*/
+
+.background {
+    background-color: black;
+    color: white;
+}
