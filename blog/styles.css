@@ -32,7 +32,7 @@ header, footer {
 .book {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border-top: 1px solid orange;
     border-bottom: 1px solid orange;
     padding: 1rem;
@@ -49,8 +49,6 @@ header, footer {
 }
 .book p {
     padding-left: 20px;
-    grid-row: 1/5;
-    grid-column: 2/3;
     font-family: Arial, Helvetica, sans-serif;
 }
 .book img {
@@ -59,12 +57,16 @@ header, footer {
     border-radius: 8px;
     margin: 0 auto;
     grid-column: 1/2;
-    grid-row: 6/11;
+    grid-row: 6/9;
 }
 #desc {
     grid-column: 1/2;
-    grid-row: 11/12;
+    grid-row: 9/10;
     text-align: center;
+}
+.book-info {
+    grid-column: 2/3;
+    grid-row: 1/5;
 }
 #release{
     font-style: italic;
@@ -82,10 +84,6 @@ header, footer {
 #rating {
     grid-row: 4/5;
     grid-column: 2/3;
-}
-.book-info {
-    grid-column: 2/3;
-    grid-row: 1/5;
 }
 @media (min-width: 600px) {
     .main-nav {
