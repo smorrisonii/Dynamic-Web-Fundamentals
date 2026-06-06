@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form</title>
+    <link rel="icon" href="favicon.ico">
+    <link href = "eventform.css" rel="stylesheet">
+    <script src="eventform.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <h1>Event Ticket</h1>
+
+    <form>
+      <div class="row">
+        <div class="field">
+          <label for="first-name">First Name</label>
+          <input id="first-name" type="text" />
+        </div>
+
+        <div class="field">
+          <label for="last-name">Last Name</label>
+          <input id="last-name" type="text" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label for="type">Type</label>
+          <select id="type">
+            <option>Choose one</option>
+            <option>Student</option>
+            <option>Guest</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="event-date">Event Date</label>
+          <input id="event-date" type="date" />
+        </div>
+      </div>
+
+      <div class="field hidden" id="extra-field">
+        <label for="extra-input" id="extra-label"></label>
+        <input id="extra-input" type="text" />
+        </div>
+
+      <button type="submit">Create Ticket</button>
+    </form>
+
+    <section id="output" aria-live="polite"></section>
+
+  </main>
+</body>
+</html>
